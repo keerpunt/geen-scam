@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GSM Winkel - Samsung Galaxy S21</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-overview {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product-img {
+            flex: 1;
+            max-width: 400px;
+            margin-right: 20px;
+        }
+        .product-img img {
+            width: 100%;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .product-details {
+            flex: 2;
+        }
+        .product-details h2 {
+            margin-top: 0;
+            color: #27ae60;
+        }
+        .price {
+            color: #e74c3c;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .product-description {
+            margin: 20px 0;
+        }
+        .order-form {
+            margin-top: 30px;
+        }
+        .order-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .order-form input, .order-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .order-form button {
+            background-color: #27ae60;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .order-form button:hover {
+            background-color: #229954;
+        }
+        .reviews {
+            margin-top: 50px;
+        }
+        .review {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #27ae60;
+            border-radius: 5px;
+        }
+        .review h4 {
+            margin: 0;
+        }
+        .review p {
+            margin: 10px 0 0;
+            color: #7f8c8d;
+        }
+        footer {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+          <li><a href="pagina2.html">Pagina 2</a></li>
+        </ul>
+      </nav>
+<header>
+    <h1> Koop de beste gsm ooit</h1>
+</header>
+
+
+
+<div class="container">
+    <div class="product-overview">
+        <div class="product-img">
+            <a href="https://example.com/large-samsung-galaxy-s21.jpg" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTKpYSSA2SnHr6I2Q6YZGW06KCAiJwj0_1klOksHveLy0-aUppBJvwffPaOu-xZn_8sLPwi5kql3RacqkTBtZceBj5uEQ3MVA6E3ISAZPGR" alt="Samsung Galaxy S21">
+            </a>
+        </div>
+        <div class="product-details">
+            <h2>Samsung Galaxy Pro S112343221</h2>
+            <p class="price">€900.000</p>
+            <div class="product-description">
+                <p><strong>Scherm:</strong> 6392 inch Dynamic AMOLED</p>
+                <p><strong>Opslag:</strong> 12821GB</p>
+                <p><strong>Camera:</strong> 64432MP</p>
+                <p><strong>Batterij:</strong> 40000000mAh</p>
+                <p><strong>Kleuren beschikbaar:</strong> Zwart,Paars,Wit,doorzigtig</p>
+                <p><strong>Besturingssysteem:</strong> Android 234567811</p>
+                <p> Dit is niet Fake </p>
+            </div>
+
+            <form class="order-form" action="verwerk-bestelling.php" method="post"
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="kleur">Kleur:</label>
+                <select id="kleur" name="kleur">
+                    <option value="phantom-gray">Groen</option>
+                    <option value="phantom-white">Blauw</option>
+                    <option value="phantom-violet">roze</option>
+                </select>
+
+                <label for="betaalmethode">Betaalmethode:</label>
+                <select id="betaalmethode" name="betaalmethode">
+                    <option value="creditcard">Creditcard</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="ideal">iDEAL</option>
+                </select>
+
+                <button type="submit">Bestel Nu</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <h3>review's</h3>
+        <div class="review">
+            <h4>Mark De Hert</h4>
+            <p>Zeer tevreden met deze telefoon! het is het geld echt waart nog nooit zo een goede gsm gehad ik heb hem al 12 jaar top gsm </p>
+        </div>
+        <div class="review">
+            <h4>jan De Roek</h4>
+            <p>veel geld ma als je een miljonair bent zo als ik dan raat ik het zeker aan   </p>
+        </div>
+        <div class="review">
+            <h4>Tom Bakker</h4>
+            <p>Top gsm beetje veel geld ma was het zeker waard   </p>
+        </div>
+        <div class="review">
+            <h4>Fine Meerschart</h4>
+            <p>supper goede gsm kan heel ver inzoemen  </p>
+        </div>
+        <div class="review">
+            <h4>Arne voekaar</h4>
+            <p>dit is supper </p>
+    </div>
+</div>
+
+
